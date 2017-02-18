@@ -5,6 +5,8 @@
 # Dotzu-Objective-c
 Dotzu Objective-c example project.
 
+👉 [Project link](https://github.com/remirobert/Dotzu)
+
 ## Installation Cocoapods:
 ```Ruby
 use_frameworks!
