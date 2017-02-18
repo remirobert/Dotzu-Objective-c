@@ -11,6 +11,10 @@ use_frameworks!
 pod 'DotzuObjc'
 ```
 
+After installing the pod make sur in your **Pod target** you set the **swift legacy language version** to **no**.
+
+<img width="879" alt="screen shot 2017-02-18 at 18 44 46" src="https://cloud.githubusercontent.com/assets/3276768/23095660/afc21adc-f60d-11e6-80b6-11c0b241b6ec.png">
+
 ## Usage
 
 In the `AppDelegate` instanciate `Dotzu manager`.
