@@ -20,7 +20,6 @@ After installing the pod, go to your **Pod target**, set the **swift legacy lang
 ## Usage
 
 In the `AppDelegate` instanciate `Dotzu manager`.
-Be careful to use Dotzu for development purpose only.
 
 ```Objective-c
 @import Dotzu;
