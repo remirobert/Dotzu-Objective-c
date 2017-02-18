@@ -1,0 +1,32 @@
+PODS:
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
+  - Dotzu (1.4)
+  - Dotzu-objc (1.2):
+    - Dotzu (~> 1.2)
+
+DEPENDENCIES:
+  - AFNetworking
+  - Dotzu-objc
+
+SPEC CHECKSUMS:
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  Dotzu: d885f5d52bbe6df0e81f2e6a4d46f7cbacc7b65d
+  Dotzu-objc: 9e0c9a24d3cce1ff4c42ccc8e5adcfc09d2aa910
+
+PODFILE CHECKSUM: 0b63406397343f0d898dc9e43cdc96f18ff94297
+
+COCOAPODS: 1.2.0

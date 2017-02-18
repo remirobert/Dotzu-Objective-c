@@ -1,0 +1,429 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BB6FB97D1E5838130048AEC1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BB6FB97C1E5838130048AEC1 /* main.m */; };
+		BB6FB9801E5838130048AEC1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BB6FB97F1E5838130048AEC1 /* AppDelegate.m */; };
+		BB6FB9831E5838130048AEC1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB6FB9821E5838130048AEC1 /* ViewController.m */; };
+		BB6FB9861E5838130048AEC1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB6FB9841E5838130048AEC1 /* Main.storyboard */; };
+		BB6FB9881E5838130048AEC1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB6FB9871E5838130048AEC1 /* Assets.xcassets */; };
+		BB6FB98B1E5838130048AEC1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB6FB9891E5838130048AEC1 /* LaunchScreen.storyboard */; };
+		FD353353B3F4DCB9C0B1B8C8 /* Pods_DotzuObjc.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFB00CE8EB69E47CD26FBA71 /* Pods_DotzuObjc.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		BBB10E4A1E583CD40046D2BE /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		25BBA775BC21B734602A641A /* Pods-DotzuObjc.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DotzuObjc.release.xcconfig"; path = "Pods/Target Support Files/Pods-DotzuObjc/Pods-DotzuObjc.release.xcconfig"; sourceTree = "<group>"; };
+		80787CCD389042DDD3D15EC9 /* Pods-DotzuObjc.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DotzuObjc.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DotzuObjc/Pods-DotzuObjc.debug.xcconfig"; sourceTree = "<group>"; };
+		BB6FB9781E5838130048AEC1 /* DotzuObjc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DotzuObjc.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB6FB97C1E5838130048AEC1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BB6FB97E1E5838130048AEC1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BB6FB97F1E5838130048AEC1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BB6FB9811E5838130048AEC1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BB6FB9821E5838130048AEC1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BB6FB9851E5838130048AEC1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BB6FB9871E5838130048AEC1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BB6FB98A1E5838130048AEC1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BB6FB98C1E5838130048AEC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BBB10E5C1E5859BC0046D2BE /* BridgingHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BridgingHeader.h; sourceTree = "<group>"; };
+		DFB00CE8EB69E47CD26FBA71 /* Pods_DotzuObjc.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DotzuObjc.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BB6FB9751E5838120048AEC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD353353B3F4DCB9C0B1B8C8 /* Pods_DotzuObjc.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		373733AA7635BFEAA4ED7643 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DFB00CE8EB69E47CD26FBA71 /* Pods_DotzuObjc.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BB6FB96F1E5838120048AEC1 = {
+			isa = PBXGroup;
+			children = (
+				BB6FB97A1E5838130048AEC1 /* DotzuObjc */,
+				BB6FB9791E5838130048AEC1 /* Products */,
+				D6B4DDE141F6A59C908E79D0 /* Pods */,
+				373733AA7635BFEAA4ED7643 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BB6FB9791E5838130048AEC1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BB6FB9781E5838130048AEC1 /* DotzuObjc.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BB6FB97A1E5838130048AEC1 /* DotzuObjc */ = {
+			isa = PBXGroup;
+			children = (
+				BB6FB97E1E5838130048AEC1 /* AppDelegate.h */,
+				BB6FB97F1E5838130048AEC1 /* AppDelegate.m */,
+				BB6FB9811E5838130048AEC1 /* ViewController.h */,
+				BB6FB9821E5838130048AEC1 /* ViewController.m */,
+				BB6FB9841E5838130048AEC1 /* Main.storyboard */,
+				BB6FB9871E5838130048AEC1 /* Assets.xcassets */,
+				BB6FB9891E5838130048AEC1 /* LaunchScreen.storyboard */,
+				BB6FB98C1E5838130048AEC1 /* Info.plist */,
+				BB6FB97B1E5838130048AEC1 /* Supporting Files */,
+				BBB10E5C1E5859BC0046D2BE /* BridgingHeader.h */,
+			);
+			path = DotzuObjc;
+			sourceTree = "<group>";
+		};
+		BB6FB97B1E5838130048AEC1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BB6FB97C1E5838130048AEC1 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D6B4DDE141F6A59C908E79D0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				80787CCD389042DDD3D15EC9 /* Pods-DotzuObjc.debug.xcconfig */,
+				25BBA775BC21B734602A641A /* Pods-DotzuObjc.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BB6FB9771E5838120048AEC1 /* DotzuObjc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB6FB98F1E5838130048AEC1 /* Build configuration list for PBXNativeTarget "DotzuObjc" */;
+			buildPhases = (
+				B2B3DF0F019225E145B0928C /* [CP] Check Pods Manifest.lock */,
+				BB6FB9741E5838120048AEC1 /* Sources */,
+				BB6FB9751E5838120048AEC1 /* Frameworks */,
+				BB6FB9761E5838120048AEC1 /* Resources */,
+				30B45A46B8682E9DE20B8DAF /* [CP] Embed Pods Frameworks */,
+				4CFE1AC3F7AE76B4EBB73D7D /* [CP] Copy Pods Resources */,
+				BBB10E4A1E583CD40046D2BE /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DotzuObjc;
+			productName = DotzuObjc;
+			productReference = BB6FB9781E5838130048AEC1 /* DotzuObjc.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BB6FB9701E5838120048AEC1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Remi Robert";
+				TargetAttributes = {
+					BB6FB9771E5838120048AEC1 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 44Q2J6374R;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = BB6FB9731E5838120048AEC1 /* Build configuration list for PBXProject "DotzuObjc" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BB6FB96F1E5838120048AEC1;
+			productRefGroup = BB6FB9791E5838130048AEC1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BB6FB9771E5838120048AEC1 /* DotzuObjc */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BB6FB9761E5838120048AEC1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB6FB98B1E5838130048AEC1 /* LaunchScreen.storyboard in Resources */,
+				BB6FB9881E5838130048AEC1 /* Assets.xcassets in Resources */,
+				BB6FB9861E5838130048AEC1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		30B45A46B8682E9DE20B8DAF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DotzuObjc/Pods-DotzuObjc-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4CFE1AC3F7AE76B4EBB73D7D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DotzuObjc/Pods-DotzuObjc-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B2B3DF0F019225E145B0928C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BB6FB9741E5838120048AEC1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB6FB9831E5838130048AEC1 /* ViewController.m in Sources */,
+				BB6FB9801E5838130048AEC1 /* AppDelegate.m in Sources */,
+				BB6FB97D1E5838130048AEC1 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BB6FB9841E5838130048AEC1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB6FB9851E5838130048AEC1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BB6FB9891E5838130048AEC1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB6FB98A1E5838130048AEC1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BB6FB98D1E5838130048AEC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = DotzuObjc;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BB6FB98E1E5838130048AEC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = DotzuObjc;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BB6FB9901E5838130048AEC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80787CCD389042DDD3D15EC9 /* Pods-DotzuObjc.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEFINES_MODULE = NO;
+				DEVELOPMENT_TEAM = 44Q2J6374R;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/DotzuObjc",
+				);
+				INFOPLIST_FILE = DotzuObjc/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.remirobert.DotzuObjc;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BB6FB9911E5838130048AEC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 25BBA775BC21B734602A641A /* Pods-DotzuObjc.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEFINES_MODULE = NO;
+				DEVELOPMENT_TEAM = 44Q2J6374R;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/DotzuObjc",
+				);
+				INFOPLIST_FILE = DotzuObjc/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.remirobert.DotzuObjc;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BB6FB9731E5838120048AEC1 /* Build configuration list for PBXProject "DotzuObjc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB6FB98D1E5838130048AEC1 /* Debug */,
+				BB6FB98E1E5838130048AEC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB6FB98F1E5838130048AEC1 /* Build configuration list for PBXNativeTarget "DotzuObjc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB6FB9901E5838130048AEC1 /* Debug */,
+				BB6FB9911E5838130048AEC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BB6FB9701E5838120048AEC1 /* Project object */;
+}

@@ -1,0 +1,1359 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00C05031BBA5BA48A00FE41348F41BDA /* UIRefreshControl+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = C02849C2007ADF4E6B67538267269F55 /* UIRefreshControl+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		011B6509E3DFE2D5347119C97C88C624 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 724857288600DA27817E94DF25620037 /* Foundation.framework */; };
+		0194ECA5823625D5DF153B287489D310 /* ManagerListLogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0FD298D057EAEE44B4E480B310B1A1 /* ManagerListLogViewController.swift */; };
+		0228217406F0319E1EE0400077CA2D78 /* LogNetworkTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C5FFD674D19A6B2A68169D1F8B7094F4 /* LogNetworkTableViewCell.xib */; };
+		02580E9CA2BAFD51B161582F054392A4 /* Dotzu-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F687E249D9DC84E161C0F124E8D4E596 /* Dotzu-dummy.m */; };
+		0283ECC31DE6CAE5688990D901FE77C4 /* ListCrashesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74719DFEF3FEE196884F33441549D854 /* ListCrashesViewController.swift */; };
+		08319ACA712D9A45C63ACBA3291755E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A061A4BEF6D8F5900CC37459DCED8D26 /* Assets.xcassets */; };
+		0D1FFD30267C0776FD3E88EFF51E312F /* UIImageView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 204483295EDA9811B87ACDEF1128E518 /* UIImageView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D9C399A2ED76C1F4BF2883ADA5067A1 /* LogCodeFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE2743505B77AA57D139156071A62FBB /* LogCodeFilter.swift */; };
+		0E2AD671B4FD932AEECD07395A92C413 /* LoggerFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4286A2F0A01EE08C7441FCB8688610C /* LoggerFormat.swift */; };
+		1119D88FC5D27180C321E55FA13F1E5F /* LogCellProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A02269883A7F184C300C8CC6FF5F32F2 /* LogCellProtocol.swift */; };
+		140F458AB7312414FC423FEED70A3733 /* UIActivityIndicatorView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = A6B6692BBC0F5FBCE0CF4A15213CC946 /* UIActivityIndicatorView+AFNetworking.m */; };
+		18A6AEA37B178AC21D997821A607EB53 /* Pods-DotzuObjc-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C5DACA2EE62DA157A4A4A03B73DCC23 /* Pods-DotzuObjc-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		19B096F87ED05D941F167186C22652BA /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6184B6E743FEDD30B6A184D55E128D85 /* Color.swift */; };
+		1E2A6D057E20BE8F5ED3E594F7B8C286 /* AFNetworking-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1AAB59D13430AD2AC987A22B1CC62028 /* AFNetworking-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1EAFD6BE16A2E67F615E4D440DA8D864 /* Log.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6975478ECA138DBFF3FD7B0F479D3081 /* Log.swift */; };
+		2110206AE82655997DE551794BD7BA96 /* RequestDataHttpBodyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA572D2BC65BF46168CBB16BA5CAB9A6 /* RequestDataHttpBodyTableViewCell.swift */; };
+		22684511784831CF7FCC997BB1F61E7C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E4E351FDD9BDE9E98CC567BA0465444 /* UIKit.framework */; };
+		23EFB184AD12FB1014FFC765CE0D710A /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52F1931C70D5ABF2AC16CE78B42BC2B7 /* Security.framework */; };
+		2533C6828ED7ED291D53FDC4A63C37DA /* Device.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2C4BF11CAD25F10FB74A9AEB71A426 /* Device.swift */; };
+		29476636EA86BEFC4CB833D3BB7A52D7 /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E97DEC0287F3CC0E5399D670228B91E /* AFURLRequestSerialization.m */; };
+		2A3DF68C4B49F7405A2562D1AE94041B /* RequestHeadersTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA1C3663E77CA95FE2CAC798B55C6131 /* RequestHeadersTableViewCell.xib */; };
+		2B0705CC26A4CBEE32A5A60284AED35B /* UIButton+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = B22DADCB8ACCCDF9022B641EF5AACC1A /* UIButton+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		30151F940BE50572458C884D2405C9F1 /* LogLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F2C890CFCC86649975D9BA0FA312E23 /* LogLevel.swift */; };
+		30288D7F5E040F446224253CB50AADB0 /* LogsSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8BF020C428ECFC6B54DDF1733D544C8 /* LogsSettings.swift */; };
+		32076D3DD644045CF79DFFEBB6BFF3F2 /* UIButton+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = D6ED95FA25F026798C0BAE532C0F8B29 /* UIButton+AFNetworking.m */; };
+		3274DFAAF2A5947E6E97789D10CF01BC /* InformationsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A16C015227863F248F07B646F0EA68 /* InformationsTableViewController.swift */; };
+		332928D25B74700A87700BB07DDE5706 /* Dotzu-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 494BAD343546D2F122E0CACE22BB6655 /* Dotzu-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		34C88657FE7ABE9F833623F94952D253 /* UIProgressView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 12DEAFFD6B028CE91BFCF2C03AB32035 /* UIProgressView+AFNetworking.m */; };
+		35CBB7B255FD8D412AFCECBC4311A847 /* AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 023D18FB6D8C27ADBF0C1E9367CA13AC /* AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3B125AE718E203AA7621B50951A2C84A /* UITableViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 096291D8DFD68777120056F792A0D019 /* UITableViewExtensions.swift */; };
+		3C6311ECAEB134BEC4981CCC59A58982 /* LogRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CACBA1173D6EBD7541A86200943155D /* LogRequest.swift */; };
+		3D6AC6598216242F3984BB80E3D5312E /* DetailCrashTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 733811D18FE4CDC02D666BB7F2F59985 /* DetailCrashTableViewController.swift */; };
+		3F45B36AB0275D01F93A4DD6853B6162 /* ManagerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6350A46F84A59D7B8C2691078BA99A2 /* ManagerViewController.swift */; };
+		44207B09A33A2D1DF9525A6E82535836 /* DotzuManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CABB7467E76848B8250498EDDE99DEC /* DotzuManager.swift */; };
+		4442D8453D210EFC13CFE2CAF862ED1D /* AFHTTPSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 36805AD57339CDE2A88422FB8B84F24F /* AFHTTPSessionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		45F802D04B3BE0CAEC586C2F3016027B /* UIActivityIndicatorView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 47D7A76998368F374796CF2736DAACFE /* UIActivityIndicatorView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		46A8592DDF2578582BB1967D54B22788 /* SettingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6C5F4D266F9AEF462E67BBCA4BCF00 /* SettingsTableViewController.swift */; };
+		4738755BCBA088A7755701C7C6D995D3 /* LoggerCrash.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07A01586C6C733407EAB17801721112 /* LoggerCrash.swift */; };
+		47F04CBDF6C54B220F6AEECEF15264D5 /* AFAutoPurgingImageCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 1EB470606FC3D93F75FDA588526BE041 /* AFAutoPurgingImageCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4E6589C5026E34A7BE172094FB24F299 /* NotificationCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ABA908DF66972F79856EDC2CA5BEE91 /* NotificationCenter.swift */; };
+		51047C1945103943F70BEADE83725630 /* UIWebView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A2B46C92E07FCAC79D08DB81BB7DE9B /* UIWebView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		553E44A8B8731597AA03BA1ECFE4DB82 /* RequestLatencyTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 12A39078FFCB3A4EA697C780BC4E323C /* RequestLatencyTableViewCell.xib */; };
+		55B10577EAD2983C6EF82BE40464D4DB /* ResponseDataTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 20FF52B21F27D4C41F296847916ABB77 /* ResponseDataTableViewCell.xib */; };
+		56800FC0ECCB855FE0272FB17E94A52F /* LogProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = F89E491ADE4D586969488C51D8DED4E0 /* LogProtocol.swift */; };
+		585B325CCA8E79068615160CD04AAD33 /* LogNavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 679192BB9067B03BD12886FEB63CB0D5 /* LogNavigationViewController.swift */; };
+		599985444BEBB9E1222761E2EE22CED8 /* LogTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5987801D4DBA53E8913A3FBFE0AFB1 /* LogTabBarViewController.swift */; };
+		5A1D34D104D42B1EE399E23BCD7935A0 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = B6A58542E83687415F33AC11D0371CE3 /* AFURLResponseSerialization.m */; };
+		5D08BDF3D5E0B048E260383C26AB6220 /* LogResponseBodyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0216344ACEE461B6E89BF70091BC74E /* LogResponseBodyViewModel.swift */; };
+		5E0FFE43062475C3375026EBEB8D1D56 /* RequestDataHttpBodyTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 785A434DCCB96E1A27F35D93D30A4CBD /* RequestDataHttpBodyTableViewCell.xib */; };
+		649E78B5EA450FABDF5201E31F265FAB /* AFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A4E9D52353AB37EF3EFA6D2306151C9 /* AFNetworkActivityIndicatorManager.m */; };
+		656B9F866B8BB5B7D925A3EB55264E8D /* ResponseDataTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12D75BB2188E7F921E6EFC5B7038EA6 /* ResponseDataTableViewCell.swift */; };
+		6573AF9ABA59AC8D1F52B07088197F71 /* AFSecurityPolicy.h in Headers */ = {isa = PBXBuildFile; fileRef = EEE106F1280C41BDC77AF6A362A28F9A /* AFSecurityPolicy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6661C69EECFD0F983FC844D2DED7C3DF /* FilterLogTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 734178E3D02FA907A953413477BF5594 /* FilterLogTableViewController.swift */; };
+		66FF93810C135EF0F4D5DC70A7B86313 /* LoggerObjc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 488B4B23B7F11128E63C85BA56DA125A /* LoggerObjc.swift */; };
+		672CC61A84344FD5131613FF1CBBF40D /* LogCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = F125FB6E980F8E0EB072603A5B22DB2B /* LogCode.swift */; };
+		69A2A0A869C24CB6836F501BF89E7E1A /* UserDefaultsExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394546B7CEEA49AE85B8B08FF4B17DF0 /* UserDefaultsExtensions.swift */; };
+		6D4A144BC9179BC884C276CBDBB0FE35 /* Dotzu-objc-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A03440A2C7FC81DB2D0F6BB8C310E2C /* Dotzu-objc-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6E8BC5AEB40A613885CF08851FD654C3 /* Logs.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA73FEB349971D4D89D4EBD6AF03C7B1 /* Logs.storyboard */; };
+		6FF9ADD676511C3564085A372CA31241 /* Application.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9374781420914C896CB6F317DED58029 /* Application.storyboard */; };
+		703236CDC5248FE381CA583AFD8D4A4B /* LoggerNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 344A654965584DC2D781DC9D42F1E3AA /* LoggerNetwork.swift */; };
+		72BE65E696A388D4CC0D75BE461FEF1B /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B3AD15AE4585798DA4388CA909B488F /* MobileCoreServices.framework */; };
+		74BB7A259369552811E074A368025646 /* DeviceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DB1ABE964CE01AE745DA8B9BEFBD61 /* DeviceModel.swift */; };
+		74CDAC9137C2127AE8DF875637CF4774 /* UITableViewCellExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1444ADD0CD10187500890C7C837CA931 /* UITableViewCellExtensions.swift */; };
+		7A112C0F21A62CB6F1AA8D917A6EEA6C /* AFNetworkActivityIndicatorManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 80FBB5D3B7AB5BEA547FEA87F0D106A9 /* AFNetworkActivityIndicatorManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7B1B8CCFEAD9E0D7B3F7C64C5C469D5F /* FilterViewControllerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB4A77A0A70D093192F760511BB223AA /* FilterViewControllerProtocol.swift */; };
+		7CE16B1BF75DF396768A0A3CFD968DB1 /* UIWebView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E77D771BF6AF6B3C238B764C227D1C6 /* UIWebView+AFNetworking.m */; };
+		7F561835DF96A8F1A2D19F9FC083916A /* RequestLatencyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0531DB901798351BA3CD3F199DF67541 /* RequestLatencyTableViewCell.swift */; };
+		85F8C2C69748E7F66EDCB1A569BF8A4B /* ApplicationInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = E59CDD54C745F3EECA8E96BBCE1509DE /* ApplicationInformation.swift */; };
+		874256648C7D9E21EEF8A8E8B1EA8A53 /* DetailResponseBodyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74BA8B1C2389710123414B952F3C58ED /* DetailResponseBodyViewController.swift */; };
+		8890CA676B4476377D355B5112DEDEA3 /* ManagerWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66786E55A8E0426B934CDA90EE05A99F /* ManagerWindow.swift */; };
+		89D6E5264338A399A095B270E43858F1 /* ContainerFilterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FC8197F27DDD401863CBA1F683ECCD7 /* ContainerFilterViewController.swift */; };
+		8FA2B843695AB0F75274C46688E4E7A0 /* LogNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5604FF4EC9C2EB0BF34827A60AA98898 /* LogNotification.swift */; };
+		9129257B44A01EF62A9762DB1073EF1F /* CrashListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E6C63DD3C823CCACCC5183B524119A7 /* CrashListTableViewCell.xib */; };
+		91FD1BD51794A4AF4D6AD270A86F7E96 /* LoggerObjc.h in Headers */ = {isa = PBXBuildFile; fileRef = A9853E745EF0CC028912A00518CFA952 /* LoggerObjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9264BD69AFA8EE74F0D7F0EBD74F762F /* UIImage+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 525C18FE2C2C893D95DB033FB443C136 /* UIImage+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9390452F82C197AA14DA1F276B80D8C3 /* FilterNetworkTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DA683847537C1F0624B08AE86BA1C18 /* FilterNetworkTableViewController.swift */; };
+		93DFC0CC12E763AE770017349EE009D1 /* AFNetworkReachabilityManager.h in Headers */ = {isa = PBXBuildFile; fileRef = E2D9D240D7D5EF638A10E6FD3B89BFBD /* AFNetworkReachabilityManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		948458DC0A9308A2D8C018C37FB7BBDD /* AFURLResponseSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = C8A40FEA81DB330A5BF639117BC345CF /* AFURLResponseSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		98D86F4C2651B69082F64AC9CD8C50AD /* RequestHeadersTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29B388665D2463E54F65E47B4EE7177D /* RequestHeadersTableViewCell.swift */; };
+		9920C27EF46CA724DED00100AC05D241 /* RequestErrorTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D0939B2E44E88F0617AE63B5EE8DB3D8 /* RequestErrorTableViewCell.xib */; };
+		9CF69B0DD8AB70B8AAEEC671FDFA66E9 /* LogBadgeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 355F330BF51DCA9554ADD389F1447B38 /* LogBadgeView.swift */; };
+		9E6AB03706CA2B23E4053999B70F365F /* LogViewNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8343CF5A6DA200FF65329612924B959 /* LogViewNotification.swift */; };
+		9EBCAE0B7087D88D521BA49101B650AE /* ListLogViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B11BF33ED714E7A6A3D4BC875AE0769 /* ListLogViewModel.swift */; };
+		A3591DEDA776B48C026E7F9144981E58 /* AFAutoPurgingImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = C6AA2A39FEC442DD676522EA35456DAD /* AFAutoPurgingImageCache.m */; };
+		A398D63C8DED664D99A864D79881A13C /* AFImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = EE18FF47223DDBA1217B5EFA427D8F55 /* AFImageDownloader.m */; };
+		AE976B0E8E3DD81E4F49DBEF19D3C0AD /* AFURLSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A88E6EF66DE113E0695113DB9D72030 /* AFURLSessionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AF18D620BA167A98644160DC2B47B1A0 /* Dotzu.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3735F6A2FA54A750ECEC3C8D71430C8B /* Dotzu.framework */; };
+		AF61DBB9D209F5E9DAF3BC43D0E1A6D2 /* LogNetworkTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA1DDCC22CC46F3889E207CB31E6BCC /* LogNetworkTableViewCell.swift */; };
+		AF85ADBCC4308765485851FC8B634639 /* Manager.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAA9EDAABE6C0D1A9C76F31D11606996 /* Manager.storyboard */; };
+		B16A078FC7FBC172A266A336AEF7F673 /* UIRefreshControl+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = A256DF7E6475A450EFCBE2963CD00791 /* UIRefreshControl+AFNetworking.m */; };
+		B1AA1CCBEE7066D20E3BF0AFF790854F /* LogHeadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6193BF8CEFCD271566284D5C173BB829 /* LogHeadView.swift */; };
+		B2261F4294C850DF5C7C45B762B0BD3F /* LogLevelFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E359B13521CDC3BF2091BD08886EB31 /* LogLevelFilter.swift */; };
+		B531D7C3D064941D05DFA56C41DC0CE1 /* LogCrash.swift in Sources */ = {isa = PBXBuildFile; fileRef = C973D2F27A68EC7EC554A722ACE3BFBC /* LogCrash.swift */; };
+		B79236C9776FE8CC432DA5389530A111 /* Settings.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A32E798B6C102A9DE3570C8CD8D102BF /* Settings.storyboard */; };
+		BA2D29D9265012FAC7A88D9A8CCD9989 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6E3C9080CE9D1509F10132067681B01 /* CoreGraphics.framework */; };
+		BC22E83FBE012D2A1B6B72B886832AF4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 724857288600DA27817E94DF25620037 /* Foundation.framework */; };
+		C0B0B5B43D59187C58E892AB3D34A337 /* ManagerListLogState.swift in Sources */ = {isa = PBXBuildFile; fileRef = C080F2DDAAF97598BE7F4B283D3DB411 /* ManagerListLogState.swift */; };
+		C5FF558ECB3F3D1F1FFFD0BF76053219 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 724857288600DA27817E94DF25620037 /* Foundation.framework */; };
+		CAFA58CDC1748B64171E64EE194626A7 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2296195EE1BB9051159C7C6610575C77 /* Logger.swift */; };
+		CE2EB8CE3176F8A1FAA78CC8786292CC /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED7F34A78AEAF43E0FB3D23A0665875A /* SystemConfiguration.framework */; };
+		CE3B0138BA0260D572E7EF87E8FC142F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 724857288600DA27817E94DF25620037 /* Foundation.framework */; };
+		CEB2F0E229EF841D92C780C3FFDF1BEA /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = AD3D095E0EF457D44F232AF3FAF6BCA2 /* AFSecurityPolicy.m */; };
+		CF18F4BED64E768015504702988FF065 /* Dotzu-objc-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BB38FA32F87B7F3DCF8421A721B5E8E3 /* Dotzu-objc-dummy.m */; };
+		CF287829627F26B2EB4382B897D06A0E /* AFNetworking-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E3C34B67739BA8FA04F67D397643C203 /* AFNetworking-dummy.m */; };
+		D47FAC57AD9A145374D8830086859112 /* StoreManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FB9B73EB29B5842B67B77EB41D3CFC9 /* StoreManager.swift */; };
+		D4E80BD7EAAB83200183110578A80591 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C043076EB70B094C7752A5A03D205677 /* AFURLSessionManager.m */; };
+		D7DD9371235705412634E47436A69258 /* DetailRequestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9054D91E59AF1B6C8EC9247E18B1E305 /* DetailRequestViewController.swift */; };
+		DD887A93A200A87A51B3D00BD1B80D20 /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 61D9DE600A21EF79CA19C78C7A05873E /* AFNetworkReachabilityManager.m */; };
+		E082583537D62C6185631A700DF4CEA8 /* Pods-DotzuObjc-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 75DE82D0D6DEC774B5D0BADA0914F582 /* Pods-DotzuObjc-dummy.m */; };
+		E23B9A6F533461CB33C0FA6FB59E3AB2 /* UIKit+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = BE1E370533F25E2F3DDBFEE47413DE0D /* UIKit+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E4F78E16A804D63B12AB1B7C70D37D19 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E4E351FDD9BDE9E98CC567BA0465444 /* UIKit.framework */; };
+		E7280DE61A1EB30AA7EF065C7E36F14E /* RequestErrorTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DC521BCA411C73FB4BC072DE0A8BC8F /* RequestErrorTableViewCell.swift */; };
+		E7556583FBFA3001FDDD448969B8D541 /* CrashListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 829364C91DB3C78E715977AA61FFBC92 /* CrashListTableViewCell.swift */; };
+		EAF16633DB3C992CF975BE4A2932D41C /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 48CE2C0D9AF9E8EFA48DD3624735C2C6 /* AFHTTPSessionManager.m */; };
+		F1CAA2EBDDFF558DEF98684F2479A7AF /* AFURLRequestSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = 954522E275F0FCEF9784F9E460622A41 /* AFURLRequestSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F2D899C7AA0D7FC20160091BB9D31CF3 /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = A0703F68562EB124D5E15C9293445BE0 /* UIImageView+AFNetworking.m */; };
+		F84DD74BB7F612DE372F8C051420DF72 /* UIProgressView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = AF7FC073221ED0DAA50F0345FB12D7C1 /* UIProgressView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FCA06AFAA286448AA0E55533400B7303 /* LogTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E8ACA54771606439F17F7F1564E0AC4 /* LogTableViewCell.swift */; };
+		FE2E86C534E0FFA57CE34D762721B0C6 /* LogTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 12F9241E1DEE5C28B5BBB8214CFA7B9D /* LogTableViewCell.xib */; };
+		FEF6EACE962EAE70E2EAC5F3C83EF7C8 /* AFImageDownloader.h in Headers */ = {isa = PBXBuildFile; fileRef = EA172B14FB6E85C61740D2BA43C13483 /* AFImageDownloader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		59AA43B3411569BA54334F574C5E8927 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7567172C631A306D3921B8434154D29D;
+			remoteInfo = "Dotzu-objc";
+		};
+		73A1B65724EA36CBA5F00123DF834EE2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9A56E63783389972D11595D39D453C0B;
+			remoteInfo = Dotzu;
+		};
+		F5589ADF447F5EC088CDCE1EC9A8F444 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9A56E63783389972D11595D39D453C0B;
+			remoteInfo = Dotzu;
+		};
+		FDFE635B799457D4FC0A21EC4943CC93 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF671F7E57B92905F1CC91D036D6B4A7;
+			remoteInfo = AFNetworking;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		023D18FB6D8C27ADBF0C1E9367CA13AC /* AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworking.h; path = AFNetworking/AFNetworking.h; sourceTree = "<group>"; };
+		0531DB901798351BA3CD3F199DF67541 /* RequestLatencyTableViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RequestLatencyTableViewCell.swift; path = Dotzu/RequestLatencyTableViewCell.swift; sourceTree = "<group>"; };
+		096291D8DFD68777120056F792A0D019 /* UITableViewExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UITableViewExtensions.swift; path = Dotzu/UITableViewExtensions.swift; sourceTree = "<group>"; };
+		099B9A54AE34308027535D330B6F1883 /* Pods-DotzuObjc-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DotzuObjc-acknowledgements.plist"; sourceTree = "<group>"; };
+		0DC521BCA411C73FB4BC072DE0A8BC8F /* RequestErrorTableViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RequestErrorTableViewCell.swift; path = Dotzu/RequestErrorTableViewCell.swift; sourceTree = "<group>"; };
+		12A39078FFCB3A4EA697C780BC4E323C /* RequestLatencyTableViewCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = RequestLatencyTableViewCell.xib; path = Dotzu/RequestLatencyTableViewCell.xib; sourceTree = "<group>"; };
+		12DEAFFD6B028CE91BFCF2C03AB32035 /* UIProgressView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIProgressView+AFNetworking.m"; path = "UIKit+AFNetworking/UIProgressView+AFNetworking.m"; sourceTree = "<group>"; };
+		12F9241E1DEE5C28B5BBB8214CFA7B9D /* LogTableViewCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = LogTableViewCell.xib; path = Dotzu/LogTableViewCell.xib; sourceTree = "<group>"; };
+		1444ADD0CD10187500890C7C837CA931 /* UITableViewCellExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UITableViewCellExtensions.swift; path = Dotzu/UITableViewCellExtensions.swift; sourceTree = "<group>"; };
+		18F55467023D4C088ADCE30BD1C733B2 /* Dotzu.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Dotzu.xcconfig; sourceTree = "<group>"; };
+		1A2B46C92E07FCAC79D08DB81BB7DE9B /* UIWebView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIWebView+AFNetworking.h"; path = "UIKit+AFNetworking/UIWebView+AFNetworking.h"; sourceTree = "<group>"; };
+		1A5CCCEC10B5DB9572D5E51198A9A675 /* Pods-DotzuObjc.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DotzuObjc.debug.xcconfig"; sourceTree = "<group>"; };
+		1AAB59D13430AD2AC987A22B1CC62028 /* AFNetworking-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AFNetworking-umbrella.h"; sourceTree = "<group>"; };
+		1CACBA1173D6EBD7541A86200943155D /* LogRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LogRequest.swift; path = Dotzu/LogRequest.swift; sourceTree = "<group>"; };
+		1E77D771BF6AF6B3C238B764C227D1C6 /* UIWebView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIWebView+AFNetworking.m"; path = "UIKit+AFNetworking/UIWebView+AFNetworking.m"; sourceTree = "<group>"; };
+		1EB470606FC3D93F75FDA588526BE041 /* AFAutoPurgingImageCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFAutoPurgingImageCache.h; path = "UIKit+AFNetworking/AFAutoPurgingImageCache.h"; sourceTree = "<group>"; };
+		1F81C7763897352D26323D782A5F30C6 /* Dotzu_objc.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Dotzu_objc.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		204483295EDA9811B87ACDEF1128E518 /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+AFNetworking.h"; path = "UIKit+AFNetworking/UIImageView+AFNetworking.h"; sourceTree = "<group>"; };
+		20FF52B21F27D4C41F296847916ABB77 /* ResponseDataTableViewCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = ResponseDataTableViewCell.xib; path = Dotzu/ResponseDataTableViewCell.xib; sourceTree = "<group>"; };
+		2296195EE1BB9051159C7C6610575C77 /* Logger.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Logger.swift; path = Dotzu/Logger.swift; sourceTree = "<group>"; };
+		29B388665D2463E54F65E47B4EE7177D /* RequestHeadersTableViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RequestHeadersTableViewCell.swift; path = Dotzu/RequestHeadersTableViewCell.swift; sourceTree = "<group>"; };
+		2A5987801D4DBA53E8913A3FBFE0AFB1 /* LogTabBarViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LogTabBarViewController.swift; path = Dotzu/LogTabBarViewController.swift; sourceTree = "<group>"; };
+		2B3AD15AE4585798DA4388CA909B488F /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/MobileCoreServices.framework; sourceTree = DEVELOPER_DIR; };
+		2C2C4BF11CAD25F10FB74A9AEB71A426 /* Device.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Device.swift; path = Dotzu/Device.swift; sourceTree = "<group>"; };
+		32AC9C5CAA85FF0AAB2F56859B9A22CC /* Dotzu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Dotzu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		344A654965584DC2D781DC9D42F1E3AA /* LoggerNetwork.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LoggerNetwork.swift; path = Dotzu/LoggerNetwork.swift; sourceTree = "<group>"; };
+		355F330BF51DCA9554ADD389F1447B38 /* LogBadgeView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LogBadgeView.swift; path = Dotzu/LogBadgeView.swift; sourceTree = "<group>"; };
+		36805AD57339CDE2A88422FB8B84F24F /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFHTTPSessionManager.h; path = AFNetworking/AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		3735F6A2FA54A750ECEC3C8D71430C8B /* Dotzu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Dotzu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		394546B7CEEA49AE85B8B08FF4B17DF0 /* UserDefaultsExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UserDefaultsExtensions.swift; path = Dotzu/UserDefaultsExtensions.swift; sourceTree = "<group>"; };
+		3CCF57972EE1B58956C9172569CDC132 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D23DDF5FF6E6E06B08701E72FC868E4 /* AFNetworking.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = AFNetworking.modulemap; sourceTree = "<group>"; };
+		3F071C274E0DD43617458D37C7D96EFC /* Pods_DotzuObjc.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DotzuObjc.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		47D7A76998368F374796CF2736DAACFE /* UIActivityIndicatorView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIActivityIndicatorView+AFNetworking.h"; path = "UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.h"; sourceTree = "<group>"; };
+		488B4B23B7F11128E63C85BA56DA125A /* LoggerObjc.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LoggerObjc.swift; path = "Dotzu-objc/LoggerObjc.swift"; sourceTree = "<group>"; };
+		48CE2C0D9AF9E8EFA48DD3624735C2C6 /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFHTTPSessionManager.m; path = AFNetworking/AFHTTPSessionManager.m; sourceTree = "<group>"; };
+		494BAD343546D2F122E0CACE22BB6655 /* Dotzu-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Dotzu-umbrella.h"; sourceTree = "<group>"; };
+		4B11BF33ED714E7A6A3D4BC875AE0769 /* ListLogViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ListLogViewModel.swift; path = Dotzu/ListLogViewModel.swift; sourceTree = "<group>"; };
+		4E97DEC0287F3CC0E5399D670228B91E /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLRequestSerialization.m; path = AFNetworking/AFURLRequestSerialization.m; sourceTree = "<group>"; };
+		4EE9ABCB29275368074A70151D126F81 /* Pods-DotzuObjc-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DotzuObjc-acknowledgements.markdown"; sourceTree = "<group>"; };
+		525C18FE2C2C893D95DB033FB443C136 /* UIImage+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+AFNetworking.h"; path = "UIKit+AFNetworking/UIImage+AFNetworking.h"; sourceTree = "<group>"; };
+		52F1931C70D5ABF2AC16CE78B42BC2B7 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		5604FF4EC9C2EB0BF34827A60AA98898 /* LogNotification.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LogNotification.swift; path = Dotzu/LogNotification.swift; sourceTree = "<group>"; };
+		56FB16F540EA381A6B4CCF92FB7B98B1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A88E6EF66DE113E0695113DB9D72030 /* AFURLSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLSessionManager.h; path = AFNetworking/AFURLSessionManager.h; sourceTree = "<group>"; };
+		5FC8197F27DDD401863CBA1F683ECCD7 /* ContainerFilterViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ContainerFilterViewController.swift; path = Dotzu/ContainerFilterViewController.swift; sourceTree = "<group>"; };
+		6013BA7834B451014CCF47DECA4E7C98 /* Pods-DotzuObjc-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DotzuObjc-frameworks.sh"; sourceTree = "<group>"; };
+		6184B6E743FEDD30B6A184D55E128D85 /* Color.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Color.swift; path = Dotzu/Color.swift; sourceTree = "<group>"; };
+		6193BF8CEFCD271566284D5C173BB829 /* LogHeadView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LogHeadView.swift; path = Dotzu/LogHeadView.swift; sourceTree = "<group>"; };
+		61D9DE600A21EF79CA19C78C7A05873E /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkReachabilityManager.m; path = AFNetworking/AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		66786E55A8E0426B934CDA90EE05A99F /* ManagerWindow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ManagerWindow.swift; path = Dotzu/ManagerWindow.swift; sourceTree = "<group>"; };
+		679192BB9067B03BD12886FEB63CB0D5 /* LogNavigationViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LogNavigationViewController.swift; path = Dotzu/LogNavigationViewController.swift; sourceTree = "<group>"; };
+		6975478ECA138DBFF3FD7B0F479D3081 /* Log.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Log.swift; path = Dotzu/Log.swift; sourceTree = "<group>"; };
+		6C5DACA2EE62DA157A4A4A03B73DCC23 /* Pods-DotzuObjc-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DotzuObjc-umbrella.h"; sourceTree = "<group>"; };
+		6E8ACA54771606439F17F7F1564E0AC4 /* LogTableViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LogTableViewCell.swift; path = Dotzu/LogTableViewCell.swift; sourceTree = "<group>"; };
+		704561969A72C49661D934C9895B6C3A /* Dotzu-objc.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Dotzu-objc.xcconfig"; sourceTree = "<group>"; };
+		724857288600DA27817E94DF25620037 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		726CDFD42C5580A28B832ECA7414B497 /* AFNetworking.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AFNetworking.xcconfig; sourceTree = "<group>"; };
+		733811D18FE4CDC02D666BB7F2F59985 /* DetailCrashTableViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DetailCrashTableViewController.swift; path = Dotzu/DetailCrashTableViewController.swift; sourceTree = "<group>"; };
+		734178E3D02FA907A953413477BF5594 /* FilterLogTableViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FilterLogTableViewController.swift; path = Dotzu/FilterLogTableViewController.swift; sourceTree = "<group>"; };
+		74719DFEF3FEE196884F33441549D854 /* ListCrashesViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ListCrashesViewController.swift; path = Dotzu/ListCrashesViewController.swift; sourceTree = "<group>"; };
+		74BA8B1C2389710123414B952F3C58ED /* DetailResponseBodyViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DetailResponseBodyViewController.swift; path = Dotzu/DetailResponseBodyViewController.swift; sourceTree = "<group>"; };
+		75DE82D0D6DEC774B5D0BADA0914F582 /* Pods-DotzuObjc-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DotzuObjc-dummy.m"; sourceTree = "<group>"; };
+		785A434DCCB96E1A27F35D93D30A4CBD /* RequestDataHttpBodyTableViewCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = RequestDataHttpBodyTableViewCell.xib; path = Dotzu/RequestDataHttpBodyTableViewCell.xib; sourceTree = "<group>"; };
+		7DA683847537C1F0624B08AE86BA1C18 /* FilterNetworkTableViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FilterNetworkTableViewController.swift; path = Dotzu/FilterNetworkTableViewController.swift; sourceTree = "<group>"; };
+		80FBB5D3B7AB5BEA547FEA87F0D106A9 /* AFNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworkActivityIndicatorManager.h; path = "UIKit+AFNetworking/AFNetworkActivityIndicatorManager.h"; sourceTree = "<group>"; };
+		829364C91DB3C78E715977AA61FFBC92 /* CrashListTableViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CrashListTableViewCell.swift; path = Dotzu/CrashListTableViewCell.swift; sourceTree = "<group>"; };
+		8A03440A2C7FC81DB2D0F6BB8C310E2C /* Dotzu-objc-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Dotzu-objc-umbrella.h"; sourceTree = "<group>"; };
+		8E4E351FDD9BDE9E98CC567BA0465444 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		8E6C63DD3C823CCACCC5183B524119A7 /* CrashListTableViewCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = CrashListTableViewCell.xib; path = Dotzu/CrashListTableViewCell.xib; sourceTree = "<group>"; };
+		8F2C890CFCC86649975D9BA0FA312E23 /* LogLevel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LogLevel.swift; path = Dotzu/LogLevel.swift; sourceTree = "<group>"; };
+		8FB9B73EB29B5842B67B77EB41D3CFC9 /* StoreManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StoreManager.swift; path = Dotzu/StoreManager.swift; sourceTree = "<group>"; };
+		9054D91E59AF1B6C8EC9247E18B1E305 /* DetailRequestViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DetailRequestViewController.swift; path = Dotzu/DetailRequestViewController.swift; sourceTree = "<group>"; };
+		922A13D5B75F139197AA050E872EA561 /* AFNetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AFNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9374781420914C896CB6F317DED58029 /* Application.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; name = Application.storyboard; path = Dotzu/Application.storyboard; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		94DB1ABE964CE01AE745DA8B9BEFBD61 /* DeviceModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DeviceModel.swift; path = Dotzu/DeviceModel.swift; sourceTree = "<group>"; };
+		954522E275F0FCEF9784F9E460622A41 /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLRequestSerialization.h; path = AFNetworking/AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		9A4E9D52353AB37EF3EFA6D2306151C9 /* AFNetworkActivityIndicatorManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkActivityIndicatorManager.m; path = "UIKit+AFNetworking/AFNetworkActivityIndicatorManager.m"; sourceTree = "<group>"; };
+		9ABA908DF66972F79856EDC2CA5BEE91 /* NotificationCenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NotificationCenter.swift; path = Dotzu/NotificationCenter.swift; sourceTree = "<group>"; };
+		9CABB7467E76848B8250498EDDE99DEC /* DotzuManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DotzuManager.swift; path = Dotzu/DotzuManager.swift; sourceTree = "<group>"; };
+		9CD0457F7CEC00B6FC8E786CEF1D0EB8 /* Dotzu.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Dotzu.modulemap; sourceTree = "<group>"; };
+		9E359B13521CDC3BF2091BD08886EB31 /* LogLevelFilter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LogLevelFilter.swift; path = Dotzu/LogLevelFilter.swift; sourceTree = "<group>"; };
+		A02269883A7F184C300C8CC6FF5F32F2 /* LogCellProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LogCellProtocol.swift; path = Dotzu/LogCellProtocol.swift; sourceTree = "<group>"; };
+		A061A4BEF6D8F5900CC37459DCED8D26 /* Assets.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = Dotzu/Assets.xcassets; sourceTree = "<group>"; };
+		A0703F68562EB124D5E15C9293445BE0 /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+AFNetworking.m"; path = "UIKit+AFNetworking/UIImageView+AFNetworking.m"; sourceTree = "<group>"; };
+		A07A01586C6C733407EAB17801721112 /* LoggerCrash.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LoggerCrash.swift; path = Dotzu/LoggerCrash.swift; sourceTree = "<group>"; };
+		A256DF7E6475A450EFCBE2963CD00791 /* UIRefreshControl+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIRefreshControl+AFNetworking.m"; path = "UIKit+AFNetworking/UIRefreshControl+AFNetworking.m"; sourceTree = "<group>"; };
+		A2A17FF8B7821469CD381BCFA0C37FCC /* Dotzu-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Dotzu-prefix.pch"; sourceTree = "<group>"; };
+		A32E798B6C102A9DE3570C8CD8D102BF /* Settings.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; name = Settings.storyboard; path = Dotzu/Settings.storyboard; sourceTree = "<group>"; };
+		A4286A2F0A01EE08C7441FCB8688610C /* LoggerFormat.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LoggerFormat.swift; path = Dotzu/LoggerFormat.swift; sourceTree = "<group>"; };
+		A6B6692BBC0F5FBCE0CF4A15213CC946 /* UIActivityIndicatorView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIActivityIndicatorView+AFNetworking.m"; path = "UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.m"; sourceTree = "<group>"; };
+		A7A16C015227863F248F07B646F0EA68 /* InformationsTableViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InformationsTableViewController.swift; path = Dotzu/InformationsTableViewController.swift; sourceTree = "<group>"; };
+		A8BF020C428ECFC6B54DDF1733D544C8 /* LogsSettings.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LogsSettings.swift; path = Dotzu/LogsSettings.swift; sourceTree = "<group>"; };
+		A9853E745EF0CC028912A00518CFA952 /* LoggerObjc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LoggerObjc.h; path = "Dotzu-objc/LoggerObjc.h"; sourceTree = "<group>"; };
+		AD3D095E0EF457D44F232AF3FAF6BCA2 /* AFSecurityPolicy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFSecurityPolicy.m; path = AFNetworking/AFSecurityPolicy.m; sourceTree = "<group>"; };
+		ADA1DDCC22CC46F3889E207CB31E6BCC /* LogNetworkTableViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LogNetworkTableViewCell.swift; path = Dotzu/LogNetworkTableViewCell.swift; sourceTree = "<group>"; };
+		AF7FC073221ED0DAA50F0345FB12D7C1 /* UIProgressView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIProgressView+AFNetworking.h"; path = "UIKit+AFNetworking/UIProgressView+AFNetworking.h"; sourceTree = "<group>"; };
+		B22DADCB8ACCCDF9022B641EF5AACC1A /* UIButton+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+AFNetworking.h"; path = "UIKit+AFNetworking/UIButton+AFNetworking.h"; sourceTree = "<group>"; };
+		B6A58542E83687415F33AC11D0371CE3 /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLResponseSerialization.m; path = AFNetworking/AFURLResponseSerialization.m; sourceTree = "<group>"; };
+		B6E3C9080CE9D1509F10132067681B01 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		B80BAAA37F8EFA698F27CB287A537234 /* Dotzu-objc.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Dotzu-objc.modulemap"; sourceTree = "<group>"; };
+		BA1C3663E77CA95FE2CAC798B55C6131 /* RequestHeadersTableViewCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = RequestHeadersTableViewCell.xib; path = Dotzu/RequestHeadersTableViewCell.xib; sourceTree = "<group>"; };
+		BB38FA32F87B7F3DCF8421A721B5E8E3 /* Dotzu-objc-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Dotzu-objc-dummy.m"; sourceTree = "<group>"; };
+		BE1E370533F25E2F3DDBFEE47413DE0D /* UIKit+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIKit+AFNetworking.h"; path = "UIKit+AFNetworking/UIKit+AFNetworking.h"; sourceTree = "<group>"; };
+		BE2743505B77AA57D139156071A62FBB /* LogCodeFilter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LogCodeFilter.swift; path = Dotzu/LogCodeFilter.swift; sourceTree = "<group>"; };
+		C0216344ACEE461B6E89BF70091BC74E /* LogResponseBodyViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LogResponseBodyViewModel.swift; path = Dotzu/LogResponseBodyViewModel.swift; sourceTree = "<group>"; };
+		C02849C2007ADF4E6B67538267269F55 /* UIRefreshControl+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIRefreshControl+AFNetworking.h"; path = "UIKit+AFNetworking/UIRefreshControl+AFNetworking.h"; sourceTree = "<group>"; };
+		C043076EB70B094C7752A5A03D205677 /* AFURLSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLSessionManager.m; path = AFNetworking/AFURLSessionManager.m; sourceTree = "<group>"; };
+		C080F2DDAAF97598BE7F4B283D3DB411 /* ManagerListLogState.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ManagerListLogState.swift; path = Dotzu/ManagerListLogState.swift; sourceTree = "<group>"; };
+		C12D75BB2188E7F921E6EFC5B7038EA6 /* ResponseDataTableViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseDataTableViewCell.swift; path = Dotzu/ResponseDataTableViewCell.swift; sourceTree = "<group>"; };
+		C2F6C034A846A812B5BD4F09E4C33819 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C394CDA241F32C1387FE2A63E55DD548 /* Dotzu-objc-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Dotzu-objc-prefix.pch"; sourceTree = "<group>"; };
+		C5FFD674D19A6B2A68169D1F8B7094F4 /* LogNetworkTableViewCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = LogNetworkTableViewCell.xib; path = Dotzu/LogNetworkTableViewCell.xib; sourceTree = "<group>"; };
+		C6AA2A39FEC442DD676522EA35456DAD /* AFAutoPurgingImageCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFAutoPurgingImageCache.m; path = "UIKit+AFNetworking/AFAutoPurgingImageCache.m"; sourceTree = "<group>"; };
+		C8343CF5A6DA200FF65329612924B959 /* LogViewNotification.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LogViewNotification.swift; path = Dotzu/LogViewNotification.swift; sourceTree = "<group>"; };
+		C8A40FEA81DB330A5BF639117BC345CF /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLResponseSerialization.h; path = AFNetworking/AFURLResponseSerialization.h; sourceTree = "<group>"; };
+		C973D2F27A68EC7EC554A722ACE3BFBC /* LogCrash.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LogCrash.swift; path = Dotzu/LogCrash.swift; sourceTree = "<group>"; };
+		CA73FEB349971D4D89D4EBD6AF03C7B1 /* Logs.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; name = Logs.storyboard; path = Dotzu/Logs.storyboard; sourceTree = "<group>"; };
+		CB4A77A0A70D093192F760511BB223AA /* FilterViewControllerProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FilterViewControllerProtocol.swift; path = Dotzu/FilterViewControllerProtocol.swift; sourceTree = "<group>"; };
+		CD6C5F4D266F9AEF462E67BBCA4BCF00 /* SettingsTableViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SettingsTableViewController.swift; path = Dotzu/SettingsTableViewController.swift; sourceTree = "<group>"; };
+		CF7D7CDB809BA5327ED8F0DED2C5C9F9 /* Pods-DotzuObjc-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DotzuObjc-resources.sh"; sourceTree = "<group>"; };
+		D0939B2E44E88F0617AE63B5EE8DB3D8 /* RequestErrorTableViewCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = RequestErrorTableViewCell.xib; path = Dotzu/RequestErrorTableViewCell.xib; sourceTree = "<group>"; };
+		D6350A46F84A59D7B8C2691078BA99A2 /* ManagerViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ManagerViewController.swift; path = Dotzu/ManagerViewController.swift; sourceTree = "<group>"; };
+		D6ED95FA25F026798C0BAE532C0F8B29 /* UIButton+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+AFNetworking.m"; path = "UIKit+AFNetworking/UIButton+AFNetworking.m"; sourceTree = "<group>"; };
+		DB0FD298D057EAEE44B4E480B310B1A1 /* ManagerListLogViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ManagerListLogViewController.swift; path = Dotzu/ManagerListLogViewController.swift; sourceTree = "<group>"; };
+		DD912C5530372B92A0038E7320D01093 /* AFNetworking-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AFNetworking-prefix.pch"; sourceTree = "<group>"; };
+		E05246EFB96C5B2311AAECB84F5AB30D /* Pods-DotzuObjc.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DotzuObjc.release.xcconfig"; sourceTree = "<group>"; };
+		E2D9D240D7D5EF638A10E6FD3B89BFBD /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworkReachabilityManager.h; path = AFNetworking/AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		E3C34B67739BA8FA04F67D397643C203 /* AFNetworking-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AFNetworking-dummy.m"; sourceTree = "<group>"; };
+		E59CDD54C745F3EECA8E96BBCE1509DE /* ApplicationInformation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ApplicationInformation.swift; path = Dotzu/ApplicationInformation.swift; sourceTree = "<group>"; };
+		EA172B14FB6E85C61740D2BA43C13483 /* AFImageDownloader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFImageDownloader.h; path = "UIKit+AFNetworking/AFImageDownloader.h"; sourceTree = "<group>"; };
+		EA572D2BC65BF46168CBB16BA5CAB9A6 /* RequestDataHttpBodyTableViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RequestDataHttpBodyTableViewCell.swift; path = Dotzu/RequestDataHttpBodyTableViewCell.swift; sourceTree = "<group>"; };
+		EAA9EDAABE6C0D1A9C76F31D11606996 /* Manager.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; name = Manager.storyboard; path = Dotzu/Manager.storyboard; sourceTree = "<group>"; };
+		EB3195E3658860D1D536871795AE90E3 /* Pods-DotzuObjc.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-DotzuObjc.modulemap"; sourceTree = "<group>"; };
+		ED7F34A78AEAF43E0FB3D23A0665875A /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
+		EE18FF47223DDBA1217B5EFA427D8F55 /* AFImageDownloader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFImageDownloader.m; path = "UIKit+AFNetworking/AFImageDownloader.m"; sourceTree = "<group>"; };
+		EEE106F1280C41BDC77AF6A362A28F9A /* AFSecurityPolicy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFSecurityPolicy.h; path = AFNetworking/AFSecurityPolicy.h; sourceTree = "<group>"; };
+		F125FB6E980F8E0EB072603A5B22DB2B /* LogCode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LogCode.swift; path = Dotzu/LogCode.swift; sourceTree = "<group>"; };
+		F687E249D9DC84E161C0F124E8D4E596 /* Dotzu-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Dotzu-dummy.m"; sourceTree = "<group>"; };
+		F89E491ADE4D586969488C51D8DED4E0 /* LogProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LogProtocol.swift; path = Dotzu/LogProtocol.swift; sourceTree = "<group>"; };
+		FBA8411B9D0F516858E54C0959256E98 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2294FE78AC87D75CE490EB58C2323C13 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF18D620BA167A98644160DC2B47B1A0 /* Dotzu.framework in Frameworks */,
+				011B6509E3DFE2D5347119C97C88C624 /* Foundation.framework in Frameworks */,
+				22684511784831CF7FCC997BB1F61E7C /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5274A10D25016DE81B5C785277029A6B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5FF558ECB3F3D1F1FFFD0BF76053219 /* Foundation.framework in Frameworks */,
+				E4F78E16A804D63B12AB1B7C70D37D19 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57F44911563C03EE01D7E49B4C1F0D0A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA2D29D9265012FAC7A88D9A8CCD9989 /* CoreGraphics.framework in Frameworks */,
+				BC22E83FBE012D2A1B6B72B886832AF4 /* Foundation.framework in Frameworks */,
+				72BE65E696A388D4CC0D75BE461FEF1B /* MobileCoreServices.framework in Frameworks */,
+				23EFB184AD12FB1014FFC765CE0D710A /* Security.framework in Frameworks */,
+				CE2EB8CE3176F8A1FAA78CC8786292CC /* SystemConfiguration.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4CE226A76B850DB7B89C286243912DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE3B0138BA0260D572E7EF87E8FC142F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0CDFE0F8657ED179543959E2D9C28108 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B80BAAA37F8EFA698F27CB287A537234 /* Dotzu-objc.modulemap */,
+				704561969A72C49661D934C9895B6C3A /* Dotzu-objc.xcconfig */,
+				BB38FA32F87B7F3DCF8421A721B5E8E3 /* Dotzu-objc-dummy.m */,
+				C394CDA241F32C1387FE2A63E55DD548 /* Dotzu-objc-prefix.pch */,
+				8A03440A2C7FC81DB2D0F6BB8C310E2C /* Dotzu-objc-umbrella.h */,
+				56FB16F540EA381A6B4CCF92FB7B98B1 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Dotzu-objc";
+			sourceTree = "<group>";
+		};
+		16D50D7A7D7627EEF8E2D9733878CEE0 /* Security */ = {
+			isa = PBXGroup;
+			children = (
+				EEE106F1280C41BDC77AF6A362A28F9A /* AFSecurityPolicy.h */,
+				AD3D095E0EF457D44F232AF3FAF6BCA2 /* AFSecurityPolicy.m */,
+			);
+			name = Security;
+			sourceTree = "<group>";
+		};
+		18980DE26B216CC9D668A8B54B737BF2 /* Pods-DotzuObjc */ = {
+			isa = PBXGroup;
+			children = (
+				FBA8411B9D0F516858E54C0959256E98 /* Info.plist */,
+				EB3195E3658860D1D536871795AE90E3 /* Pods-DotzuObjc.modulemap */,
+				4EE9ABCB29275368074A70151D126F81 /* Pods-DotzuObjc-acknowledgements.markdown */,
+				099B9A54AE34308027535D330B6F1883 /* Pods-DotzuObjc-acknowledgements.plist */,
+				75DE82D0D6DEC774B5D0BADA0914F582 /* Pods-DotzuObjc-dummy.m */,
+				6013BA7834B451014CCF47DECA4E7C98 /* Pods-DotzuObjc-frameworks.sh */,
+				CF7D7CDB809BA5327ED8F0DED2C5C9F9 /* Pods-DotzuObjc-resources.sh */,
+				6C5DACA2EE62DA157A4A4A03B73DCC23 /* Pods-DotzuObjc-umbrella.h */,
+				1A5CCCEC10B5DB9572D5E51198A9A675 /* Pods-DotzuObjc.debug.xcconfig */,
+				E05246EFB96C5B2311AAECB84F5AB30D /* Pods-DotzuObjc.release.xcconfig */,
+			);
+			name = "Pods-DotzuObjc";
+			path = "Target Support Files/Pods-DotzuObjc";
+			sourceTree = "<group>";
+		};
+		195FA943D53A3EEEB85686290E800F28 /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				023D18FB6D8C27ADBF0C1E9367CA13AC /* AFNetworking.h */,
+				DB2D57B40987BCACA4AB301EF33AE194 /* NSURLSession */,
+				3C367BC6887C2E5EDD4B2E1D64BC4D7B /* Reachability */,
+				16D50D7A7D7627EEF8E2D9733878CEE0 /* Security */,
+				82CD47F50A34FDAD4F99550BF4CBBEB7 /* Serialization */,
+				68893F25093F4AA213AE6DDF46FC142D /* Support Files */,
+				7EF54233CA0CE9D53CB863E3D22B815E /* UIKit */,
+			);
+			path = AFNetworking;
+			sourceTree = "<group>";
+		};
+		1BDCC780DE11141F8233F235FCDD7132 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9CD0457F7CEC00B6FC8E786CEF1D0EB8 /* Dotzu.modulemap */,
+				18F55467023D4C088ADCE30BD1C733B2 /* Dotzu.xcconfig */,
+				F687E249D9DC84E161C0F124E8D4E596 /* Dotzu-dummy.m */,
+				A2A17FF8B7821469CD381BCFA0C37FCC /* Dotzu-prefix.pch */,
+				494BAD343546D2F122E0CACE22BB6655 /* Dotzu-umbrella.h */,
+				3CCF57972EE1B58956C9172569CDC132 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Dotzu";
+			sourceTree = "<group>";
+		};
+		3C367BC6887C2E5EDD4B2E1D64BC4D7B /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				E2D9D240D7D5EF638A10E6FD3B89BFBD /* AFNetworkReachabilityManager.h */,
+				61D9DE600A21EF79CA19C78C7A05873E /* AFNetworkReachabilityManager.m */,
+			);
+			name = Reachability;
+			sourceTree = "<group>";
+		};
+		3F8E330AC164B02F66E4E9452F9D7D61 /* Dotzu */ = {
+			isa = PBXGroup;
+			children = (
+				E59CDD54C745F3EECA8E96BBCE1509DE /* ApplicationInformation.swift */,
+				6184B6E743FEDD30B6A184D55E128D85 /* Color.swift */,
+				5FC8197F27DDD401863CBA1F683ECCD7 /* ContainerFilterViewController.swift */,
+				829364C91DB3C78E715977AA61FFBC92 /* CrashListTableViewCell.swift */,
+				733811D18FE4CDC02D666BB7F2F59985 /* DetailCrashTableViewController.swift */,
+				9054D91E59AF1B6C8EC9247E18B1E305 /* DetailRequestViewController.swift */,
+				74BA8B1C2389710123414B952F3C58ED /* DetailResponseBodyViewController.swift */,
+				2C2C4BF11CAD25F10FB74A9AEB71A426 /* Device.swift */,
+				94DB1ABE964CE01AE745DA8B9BEFBD61 /* DeviceModel.swift */,
+				9CABB7467E76848B8250498EDDE99DEC /* DotzuManager.swift */,
+				734178E3D02FA907A953413477BF5594 /* FilterLogTableViewController.swift */,
+				7DA683847537C1F0624B08AE86BA1C18 /* FilterNetworkTableViewController.swift */,
+				CB4A77A0A70D093192F760511BB223AA /* FilterViewControllerProtocol.swift */,
+				A7A16C015227863F248F07B646F0EA68 /* InformationsTableViewController.swift */,
+				74719DFEF3FEE196884F33441549D854 /* ListCrashesViewController.swift */,
+				4B11BF33ED714E7A6A3D4BC875AE0769 /* ListLogViewModel.swift */,
+				6975478ECA138DBFF3FD7B0F479D3081 /* Log.swift */,
+				355F330BF51DCA9554ADD389F1447B38 /* LogBadgeView.swift */,
+				A02269883A7F184C300C8CC6FF5F32F2 /* LogCellProtocol.swift */,
+				F125FB6E980F8E0EB072603A5B22DB2B /* LogCode.swift */,
+				BE2743505B77AA57D139156071A62FBB /* LogCodeFilter.swift */,
+				C973D2F27A68EC7EC554A722ACE3BFBC /* LogCrash.swift */,
+				2296195EE1BB9051159C7C6610575C77 /* Logger.swift */,
+				A07A01586C6C733407EAB17801721112 /* LoggerCrash.swift */,
+				A4286A2F0A01EE08C7441FCB8688610C /* LoggerFormat.swift */,
+				344A654965584DC2D781DC9D42F1E3AA /* LoggerNetwork.swift */,
+				6193BF8CEFCD271566284D5C173BB829 /* LogHeadView.swift */,
+				8F2C890CFCC86649975D9BA0FA312E23 /* LogLevel.swift */,
+				9E359B13521CDC3BF2091BD08886EB31 /* LogLevelFilter.swift */,
+				679192BB9067B03BD12886FEB63CB0D5 /* LogNavigationViewController.swift */,
+				ADA1DDCC22CC46F3889E207CB31E6BCC /* LogNetworkTableViewCell.swift */,
+				5604FF4EC9C2EB0BF34827A60AA98898 /* LogNotification.swift */,
+				F89E491ADE4D586969488C51D8DED4E0 /* LogProtocol.swift */,
+				1CACBA1173D6EBD7541A86200943155D /* LogRequest.swift */,
+				C0216344ACEE461B6E89BF70091BC74E /* LogResponseBodyViewModel.swift */,
+				A8BF020C428ECFC6B54DDF1733D544C8 /* LogsSettings.swift */,
+				2A5987801D4DBA53E8913A3FBFE0AFB1 /* LogTabBarViewController.swift */,
+				6E8ACA54771606439F17F7F1564E0AC4 /* LogTableViewCell.swift */,
+				C8343CF5A6DA200FF65329612924B959 /* LogViewNotification.swift */,
+				C080F2DDAAF97598BE7F4B283D3DB411 /* ManagerListLogState.swift */,
+				DB0FD298D057EAEE44B4E480B310B1A1 /* ManagerListLogViewController.swift */,
+				D6350A46F84A59D7B8C2691078BA99A2 /* ManagerViewController.swift */,
+				66786E55A8E0426B934CDA90EE05A99F /* ManagerWindow.swift */,
+				9ABA908DF66972F79856EDC2CA5BEE91 /* NotificationCenter.swift */,
+				EA572D2BC65BF46168CBB16BA5CAB9A6 /* RequestDataHttpBodyTableViewCell.swift */,
+				0DC521BCA411C73FB4BC072DE0A8BC8F /* RequestErrorTableViewCell.swift */,
+				29B388665D2463E54F65E47B4EE7177D /* RequestHeadersTableViewCell.swift */,
+				0531DB901798351BA3CD3F199DF67541 /* RequestLatencyTableViewCell.swift */,
+				C12D75BB2188E7F921E6EFC5B7038EA6 /* ResponseDataTableViewCell.swift */,
+				CD6C5F4D266F9AEF462E67BBCA4BCF00 /* SettingsTableViewController.swift */,
+				8FB9B73EB29B5842B67B77EB41D3CFC9 /* StoreManager.swift */,
+				1444ADD0CD10187500890C7C837CA931 /* UITableViewCellExtensions.swift */,
+				096291D8DFD68777120056F792A0D019 /* UITableViewExtensions.swift */,
+				394546B7CEEA49AE85B8B08FF4B17DF0 /* UserDefaultsExtensions.swift */,
+				B6C057E3CD8C71A5B4530984593EBF36 /* Resources */,
+				1BDCC780DE11141F8233F235FCDD7132 /* Support Files */,
+			);
+			path = Dotzu;
+			sourceTree = "<group>";
+		};
+		5B4C29F73D34CAFE58948A897CDF74E8 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				B6E3C9080CE9D1509F10132067681B01 /* CoreGraphics.framework */,
+				724857288600DA27817E94DF25620037 /* Foundation.framework */,
+				2B3AD15AE4585798DA4388CA909B488F /* MobileCoreServices.framework */,
+				52F1931C70D5ABF2AC16CE78B42BC2B7 /* Security.framework */,
+				ED7F34A78AEAF43E0FB3D23A0665875A /* SystemConfiguration.framework */,
+				8E4E351FDD9BDE9E98CC567BA0465444 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		68893F25093F4AA213AE6DDF46FC142D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3D23DDF5FF6E6E06B08701E72FC868E4 /* AFNetworking.modulemap */,
+				726CDFD42C5580A28B832ECA7414B497 /* AFNetworking.xcconfig */,
+				E3C34B67739BA8FA04F67D397643C203 /* AFNetworking-dummy.m */,
+				DD912C5530372B92A0038E7320D01093 /* AFNetworking-prefix.pch */,
+				1AAB59D13430AD2AC987A22B1CC62028 /* AFNetworking-umbrella.h */,
+				C2F6C034A846A812B5BD4F09E4C33819 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/AFNetworking";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				EE43ED079F2A2DF926BA42B76216CAFA /* Frameworks */,
+				B751B5603073C05D269E64027C4C8CBA /* Pods */,
+				AEC6273BB21343D10EF5C2616232D6E4 /* Products */,
+				C7C4A18AE4BFBDA326E240ACB994F66C /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		7EF54233CA0CE9D53CB863E3D22B815E /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				1EB470606FC3D93F75FDA588526BE041 /* AFAutoPurgingImageCache.h */,
+				C6AA2A39FEC442DD676522EA35456DAD /* AFAutoPurgingImageCache.m */,
+				EA172B14FB6E85C61740D2BA43C13483 /* AFImageDownloader.h */,
+				EE18FF47223DDBA1217B5EFA427D8F55 /* AFImageDownloader.m */,
+				80FBB5D3B7AB5BEA547FEA87F0D106A9 /* AFNetworkActivityIndicatorManager.h */,
+				9A4E9D52353AB37EF3EFA6D2306151C9 /* AFNetworkActivityIndicatorManager.m */,
+				47D7A76998368F374796CF2736DAACFE /* UIActivityIndicatorView+AFNetworking.h */,
+				A6B6692BBC0F5FBCE0CF4A15213CC946 /* UIActivityIndicatorView+AFNetworking.m */,
+				B22DADCB8ACCCDF9022B641EF5AACC1A /* UIButton+AFNetworking.h */,
+				D6ED95FA25F026798C0BAE532C0F8B29 /* UIButton+AFNetworking.m */,
+				525C18FE2C2C893D95DB033FB443C136 /* UIImage+AFNetworking.h */,
+				204483295EDA9811B87ACDEF1128E518 /* UIImageView+AFNetworking.h */,
+				A0703F68562EB124D5E15C9293445BE0 /* UIImageView+AFNetworking.m */,
+				BE1E370533F25E2F3DDBFEE47413DE0D /* UIKit+AFNetworking.h */,
+				AF7FC073221ED0DAA50F0345FB12D7C1 /* UIProgressView+AFNetworking.h */,
+				12DEAFFD6B028CE91BFCF2C03AB32035 /* UIProgressView+AFNetworking.m */,
+				C02849C2007ADF4E6B67538267269F55 /* UIRefreshControl+AFNetworking.h */,
+				A256DF7E6475A450EFCBE2963CD00791 /* UIRefreshControl+AFNetworking.m */,
+				1A2B46C92E07FCAC79D08DB81BB7DE9B /* UIWebView+AFNetworking.h */,
+				1E77D771BF6AF6B3C238B764C227D1C6 /* UIWebView+AFNetworking.m */,
+			);
+			name = UIKit;
+			sourceTree = "<group>";
+		};
+		8165EEF7D7B88898C6331887C9E2ADA8 /* Dotzu-objc */ = {
+			isa = PBXGroup;
+			children = (
+				A9853E745EF0CC028912A00518CFA952 /* LoggerObjc.h */,
+				488B4B23B7F11128E63C85BA56DA125A /* LoggerObjc.swift */,
+				0CDFE0F8657ED179543959E2D9C28108 /* Support Files */,
+			);
+			path = "Dotzu-objc";
+			sourceTree = "<group>";
+		};
+		82CD47F50A34FDAD4F99550BF4CBBEB7 /* Serialization */ = {
+			isa = PBXGroup;
+			children = (
+				954522E275F0FCEF9784F9E460622A41 /* AFURLRequestSerialization.h */,
+				4E97DEC0287F3CC0E5399D670228B91E /* AFURLRequestSerialization.m */,
+				C8A40FEA81DB330A5BF639117BC345CF /* AFURLResponseSerialization.h */,
+				B6A58542E83687415F33AC11D0371CE3 /* AFURLResponseSerialization.m */,
+			);
+			name = Serialization;
+			sourceTree = "<group>";
+		};
+		AEC6273BB21343D10EF5C2616232D6E4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				922A13D5B75F139197AA050E872EA561 /* AFNetworking.framework */,
+				32AC9C5CAA85FF0AAB2F56859B9A22CC /* Dotzu.framework */,
+				1F81C7763897352D26323D782A5F30C6 /* Dotzu_objc.framework */,
+				3F071C274E0DD43617458D37C7D96EFC /* Pods_DotzuObjc.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B6C057E3CD8C71A5B4530984593EBF36 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9374781420914C896CB6F317DED58029 /* Application.storyboard */,
+				A061A4BEF6D8F5900CC37459DCED8D26 /* Assets.xcassets */,
+				8E6C63DD3C823CCACCC5183B524119A7 /* CrashListTableViewCell.xib */,
+				C5FFD674D19A6B2A68169D1F8B7094F4 /* LogNetworkTableViewCell.xib */,
+				CA73FEB349971D4D89D4EBD6AF03C7B1 /* Logs.storyboard */,
+				12F9241E1DEE5C28B5BBB8214CFA7B9D /* LogTableViewCell.xib */,
+				EAA9EDAABE6C0D1A9C76F31D11606996 /* Manager.storyboard */,
+				785A434DCCB96E1A27F35D93D30A4CBD /* RequestDataHttpBodyTableViewCell.xib */,
+				D0939B2E44E88F0617AE63B5EE8DB3D8 /* RequestErrorTableViewCell.xib */,
+				BA1C3663E77CA95FE2CAC798B55C6131 /* RequestHeadersTableViewCell.xib */,
+				12A39078FFCB3A4EA697C780BC4E323C /* RequestLatencyTableViewCell.xib */,
+				20FF52B21F27D4C41F296847916ABB77 /* ResponseDataTableViewCell.xib */,
+				A32E798B6C102A9DE3570C8CD8D102BF /* Settings.storyboard */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		B751B5603073C05D269E64027C4C8CBA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				195FA943D53A3EEEB85686290E800F28 /* AFNetworking */,
+				3F8E330AC164B02F66E4E9452F9D7D61 /* Dotzu */,
+				8165EEF7D7B88898C6331887C9E2ADA8 /* Dotzu-objc */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C7C4A18AE4BFBDA326E240ACB994F66C /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				18980DE26B216CC9D668A8B54B737BF2 /* Pods-DotzuObjc */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		DB2D57B40987BCACA4AB301EF33AE194 /* NSURLSession */ = {
+			isa = PBXGroup;
+			children = (
+				36805AD57339CDE2A88422FB8B84F24F /* AFHTTPSessionManager.h */,
+				48CE2C0D9AF9E8EFA48DD3624735C2C6 /* AFHTTPSessionManager.m */,
+				5A88E6EF66DE113E0695113DB9D72030 /* AFURLSessionManager.h */,
+				C043076EB70B094C7752A5A03D205677 /* AFURLSessionManager.m */,
+			);
+			name = NSURLSession;
+			sourceTree = "<group>";
+		};
+		EE43ED079F2A2DF926BA42B76216CAFA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3735F6A2FA54A750ECEC3C8D71430C8B /* Dotzu.framework */,
+				5B4C29F73D34CAFE58948A897CDF74E8 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		AFE3D877AF78E034E83CDA1E0D534528 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				332928D25B74700A87700BB07DDE5706 /* Dotzu-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF51EB9C179540355326BC18C9FAF5E5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47F04CBDF6C54B220F6AEECEF15264D5 /* AFAutoPurgingImageCache.h in Headers */,
+				4442D8453D210EFC13CFE2CAF862ED1D /* AFHTTPSessionManager.h in Headers */,
+				FEF6EACE962EAE70E2EAC5F3C83EF7C8 /* AFImageDownloader.h in Headers */,
+				7A112C0F21A62CB6F1AA8D917A6EEA6C /* AFNetworkActivityIndicatorManager.h in Headers */,
+				1E2A6D057E20BE8F5ED3E594F7B8C286 /* AFNetworking-umbrella.h in Headers */,
+				35CBB7B255FD8D412AFCECBC4311A847 /* AFNetworking.h in Headers */,
+				93DFC0CC12E763AE770017349EE009D1 /* AFNetworkReachabilityManager.h in Headers */,
+				6573AF9ABA59AC8D1F52B07088197F71 /* AFSecurityPolicy.h in Headers */,
+				F1CAA2EBDDFF558DEF98684F2479A7AF /* AFURLRequestSerialization.h in Headers */,
+				948458DC0A9308A2D8C018C37FB7BBDD /* AFURLResponseSerialization.h in Headers */,
+				AE976B0E8E3DD81E4F49DBEF19D3C0AD /* AFURLSessionManager.h in Headers */,
+				45F802D04B3BE0CAEC586C2F3016027B /* UIActivityIndicatorView+AFNetworking.h in Headers */,
+				2B0705CC26A4CBEE32A5A60284AED35B /* UIButton+AFNetworking.h in Headers */,
+				9264BD69AFA8EE74F0D7F0EBD74F762F /* UIImage+AFNetworking.h in Headers */,
+				0D1FFD30267C0776FD3E88EFF51E312F /* UIImageView+AFNetworking.h in Headers */,
+				E23B9A6F533461CB33C0FA6FB59E3AB2 /* UIKit+AFNetworking.h in Headers */,
+				F84DD74BB7F612DE372F8C051420DF72 /* UIProgressView+AFNetworking.h in Headers */,
+				00C05031BBA5BA48A00FE41348F41BDA /* UIRefreshControl+AFNetworking.h in Headers */,
+				51047C1945103943F70BEADE83725630 /* UIWebView+AFNetworking.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E04444E6FA2AEAC4A9498846B3160412 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D4A144BC9179BC884C276CBDBB0FE35 /* Dotzu-objc-umbrella.h in Headers */,
+				91FD1BD51794A4AF4D6AD270A86F7E96 /* LoggerObjc.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA28EEE4E97723337F4DB105DA6BA374 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18A6AEA37B178AC21D997821A607EB53 /* Pods-DotzuObjc-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4E69AF91B7D62425EDF3A9595A7BCC9D /* Pods-DotzuObjc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40E7614FC0E8426165ED64F18F594D02 /* Build configuration list for PBXNativeTarget "Pods-DotzuObjc" */;
+			buildPhases = (
+				C754E0CE38DBA3EFB62E5E040B2F7459 /* Sources */,
+				F4CE226A76B850DB7B89C286243912DF /* Frameworks */,
+				EA28EEE4E97723337F4DB105DA6BA374 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				68374F670A8B4C475FA5981C5070A5C6 /* PBXTargetDependency */,
+				9630B03920134089A609EC7CADDD1498 /* PBXTargetDependency */,
+				90DF7991C67F365A9964566900EF94C0 /* PBXTargetDependency */,
+			);
+			name = "Pods-DotzuObjc";
+			productName = "Pods-DotzuObjc";
+			productReference = 3F071C274E0DD43617458D37C7D96EFC /* Pods_DotzuObjc.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7567172C631A306D3921B8434154D29D /* Dotzu-objc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2F88A4F5D503E29D39E0B2A1A83DD30 /* Build configuration list for PBXNativeTarget "Dotzu-objc" */;
+			buildPhases = (
+				BB78FB146EAEE911ECA5422BD070FA0B /* Sources */,
+				2294FE78AC87D75CE490EB58C2323C13 /* Frameworks */,
+				E04444E6FA2AEAC4A9498846B3160412 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5A2673E5274957E3C44DD850FB81A6C4 /* PBXTargetDependency */,
+			);
+			name = "Dotzu-objc";
+			productName = "Dotzu-objc";
+			productReference = 1F81C7763897352D26323D782A5F30C6 /* Dotzu_objc.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9A56E63783389972D11595D39D453C0B /* Dotzu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4650B908D376661D2C5F5A0E09DF91F8 /* Build configuration list for PBXNativeTarget "Dotzu" */;
+			buildPhases = (
+				A158F9BDB2A097B95B33DA72154D5960 /* Sources */,
+				5274A10D25016DE81B5C785277029A6B /* Frameworks */,
+				D5EB4CA17C2B7DF3426FB1699354E9B2 /* Resources */,
+				AFE3D877AF78E034E83CDA1E0D534528 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Dotzu;
+			productName = Dotzu;
+			productReference = 32AC9C5CAA85FF0AAB2F56859B9A22CC /* Dotzu.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CF671F7E57B92905F1CC91D036D6B4A7 /* AFNetworking */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31E01BC98C827BD8A78F94173CDCC418 /* Build configuration list for PBXNativeTarget "AFNetworking" */;
+			buildPhases = (
+				6A10001116C48A3F5FDB7E1BC749EECD /* Sources */,
+				57F44911563C03EE01D7E49B4C1F0D0A /* Frameworks */,
+				BF51EB9C179540355326BC18C9FAF5E5 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AFNetworking;
+			productName = AFNetworking;
+			productReference = 922A13D5B75F139197AA050E872EA561 /* AFNetworking.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = AEC6273BB21343D10EF5C2616232D6E4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CF671F7E57B92905F1CC91D036D6B4A7 /* AFNetworking */,
+				9A56E63783389972D11595D39D453C0B /* Dotzu */,
+				7567172C631A306D3921B8434154D29D /* Dotzu-objc */,
+				4E69AF91B7D62425EDF3A9595A7BCC9D /* Pods-DotzuObjc */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D5EB4CA17C2B7DF3426FB1699354E9B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FF9ADD676511C3564085A372CA31241 /* Application.storyboard in Resources */,
+				08319ACA712D9A45C63ACBA3291755E3 /* Assets.xcassets in Resources */,
+				9129257B44A01EF62A9762DB1073EF1F /* CrashListTableViewCell.xib in Resources */,
+				0228217406F0319E1EE0400077CA2D78 /* LogNetworkTableViewCell.xib in Resources */,
+				6E8BC5AEB40A613885CF08851FD654C3 /* Logs.storyboard in Resources */,
+				FE2E86C534E0FFA57CE34D762721B0C6 /* LogTableViewCell.xib in Resources */,
+				AF85ADBCC4308765485851FC8B634639 /* Manager.storyboard in Resources */,
+				5E0FFE43062475C3375026EBEB8D1D56 /* RequestDataHttpBodyTableViewCell.xib in Resources */,
+				9920C27EF46CA724DED00100AC05D241 /* RequestErrorTableViewCell.xib in Resources */,
+				2A3DF68C4B49F7405A2562D1AE94041B /* RequestHeadersTableViewCell.xib in Resources */,
+				553E44A8B8731597AA03BA1ECFE4DB82 /* RequestLatencyTableViewCell.xib in Resources */,
+				55B10577EAD2983C6EF82BE40464D4DB /* ResponseDataTableViewCell.xib in Resources */,
+				B79236C9776FE8CC432DA5389530A111 /* Settings.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6A10001116C48A3F5FDB7E1BC749EECD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3591DEDA776B48C026E7F9144981E58 /* AFAutoPurgingImageCache.m in Sources */,
+				EAF16633DB3C992CF975BE4A2932D41C /* AFHTTPSessionManager.m in Sources */,
+				A398D63C8DED664D99A864D79881A13C /* AFImageDownloader.m in Sources */,
+				649E78B5EA450FABDF5201E31F265FAB /* AFNetworkActivityIndicatorManager.m in Sources */,
+				CF287829627F26B2EB4382B897D06A0E /* AFNetworking-dummy.m in Sources */,
+				DD887A93A200A87A51B3D00BD1B80D20 /* AFNetworkReachabilityManager.m in Sources */,
+				CEB2F0E229EF841D92C780C3FFDF1BEA /* AFSecurityPolicy.m in Sources */,
+				29476636EA86BEFC4CB833D3BB7A52D7 /* AFURLRequestSerialization.m in Sources */,
+				5A1D34D104D42B1EE399E23BCD7935A0 /* AFURLResponseSerialization.m in Sources */,
+				D4E80BD7EAAB83200183110578A80591 /* AFURLSessionManager.m in Sources */,
+				140F458AB7312414FC423FEED70A3733 /* UIActivityIndicatorView+AFNetworking.m in Sources */,
+				32076D3DD644045CF79DFFEBB6BFF3F2 /* UIButton+AFNetworking.m in Sources */,
+				F2D899C7AA0D7FC20160091BB9D31CF3 /* UIImageView+AFNetworking.m in Sources */,
+				34C88657FE7ABE9F833623F94952D253 /* UIProgressView+AFNetworking.m in Sources */,
+				B16A078FC7FBC172A266A336AEF7F673 /* UIRefreshControl+AFNetworking.m in Sources */,
+				7CE16B1BF75DF396768A0A3CFD968DB1 /* UIWebView+AFNetworking.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A158F9BDB2A097B95B33DA72154D5960 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85F8C2C69748E7F66EDCB1A569BF8A4B /* ApplicationInformation.swift in Sources */,
+				19B096F87ED05D941F167186C22652BA /* Color.swift in Sources */,
+				89D6E5264338A399A095B270E43858F1 /* ContainerFilterViewController.swift in Sources */,
+				E7556583FBFA3001FDDD448969B8D541 /* CrashListTableViewCell.swift in Sources */,
+				3D6AC6598216242F3984BB80E3D5312E /* DetailCrashTableViewController.swift in Sources */,
+				D7DD9371235705412634E47436A69258 /* DetailRequestViewController.swift in Sources */,
+				874256648C7D9E21EEF8A8E8B1EA8A53 /* DetailResponseBodyViewController.swift in Sources */,
+				2533C6828ED7ED291D53FDC4A63C37DA /* Device.swift in Sources */,
+				74BB7A259369552811E074A368025646 /* DeviceModel.swift in Sources */,
+				02580E9CA2BAFD51B161582F054392A4 /* Dotzu-dummy.m in Sources */,
+				44207B09A33A2D1DF9525A6E82535836 /* DotzuManager.swift in Sources */,
+				6661C69EECFD0F983FC844D2DED7C3DF /* FilterLogTableViewController.swift in Sources */,
+				9390452F82C197AA14DA1F276B80D8C3 /* FilterNetworkTableViewController.swift in Sources */,
+				7B1B8CCFEAD9E0D7B3F7C64C5C469D5F /* FilterViewControllerProtocol.swift in Sources */,
+				3274DFAAF2A5947E6E97789D10CF01BC /* InformationsTableViewController.swift in Sources */,
+				0283ECC31DE6CAE5688990D901FE77C4 /* ListCrashesViewController.swift in Sources */,
+				9EBCAE0B7087D88D521BA49101B650AE /* ListLogViewModel.swift in Sources */,
+				1EAFD6BE16A2E67F615E4D440DA8D864 /* Log.swift in Sources */,
+				9CF69B0DD8AB70B8AAEEC671FDFA66E9 /* LogBadgeView.swift in Sources */,
+				1119D88FC5D27180C321E55FA13F1E5F /* LogCellProtocol.swift in Sources */,
+				672CC61A84344FD5131613FF1CBBF40D /* LogCode.swift in Sources */,
+				0D9C399A2ED76C1F4BF2883ADA5067A1 /* LogCodeFilter.swift in Sources */,
+				B531D7C3D064941D05DFA56C41DC0CE1 /* LogCrash.swift in Sources */,
+				CAFA58CDC1748B64171E64EE194626A7 /* Logger.swift in Sources */,
+				4738755BCBA088A7755701C7C6D995D3 /* LoggerCrash.swift in Sources */,
+				0E2AD671B4FD932AEECD07395A92C413 /* LoggerFormat.swift in Sources */,
+				703236CDC5248FE381CA583AFD8D4A4B /* LoggerNetwork.swift in Sources */,
+				B1AA1CCBEE7066D20E3BF0AFF790854F /* LogHeadView.swift in Sources */,
+				30151F940BE50572458C884D2405C9F1 /* LogLevel.swift in Sources */,
+				B2261F4294C850DF5C7C45B762B0BD3F /* LogLevelFilter.swift in Sources */,
+				585B325CCA8E79068615160CD04AAD33 /* LogNavigationViewController.swift in Sources */,
+				AF61DBB9D209F5E9DAF3BC43D0E1A6D2 /* LogNetworkTableViewCell.swift in Sources */,
+				8FA2B843695AB0F75274C46688E4E7A0 /* LogNotification.swift in Sources */,
+				56800FC0ECCB855FE0272FB17E94A52F /* LogProtocol.swift in Sources */,
+				3C6311ECAEB134BEC4981CCC59A58982 /* LogRequest.swift in Sources */,
+				5D08BDF3D5E0B048E260383C26AB6220 /* LogResponseBodyViewModel.swift in Sources */,
+				30288D7F5E040F446224253CB50AADB0 /* LogsSettings.swift in Sources */,
+				599985444BEBB9E1222761E2EE22CED8 /* LogTabBarViewController.swift in Sources */,
+				FCA06AFAA286448AA0E55533400B7303 /* LogTableViewCell.swift in Sources */,
+				9E6AB03706CA2B23E4053999B70F365F /* LogViewNotification.swift in Sources */,
+				C0B0B5B43D59187C58E892AB3D34A337 /* ManagerListLogState.swift in Sources */,
+				0194ECA5823625D5DF153B287489D310 /* ManagerListLogViewController.swift in Sources */,
+				3F45B36AB0275D01F93A4DD6853B6162 /* ManagerViewController.swift in Sources */,
+				8890CA676B4476377D355B5112DEDEA3 /* ManagerWindow.swift in Sources */,
+				4E6589C5026E34A7BE172094FB24F299 /* NotificationCenter.swift in Sources */,
+				2110206AE82655997DE551794BD7BA96 /* RequestDataHttpBodyTableViewCell.swift in Sources */,
+				E7280DE61A1EB30AA7EF065C7E36F14E /* RequestErrorTableViewCell.swift in Sources */,
+				98D86F4C2651B69082F64AC9CD8C50AD /* RequestHeadersTableViewCell.swift in Sources */,
+				7F561835DF96A8F1A2D19F9FC083916A /* RequestLatencyTableViewCell.swift in Sources */,
+				656B9F866B8BB5B7D925A3EB55264E8D /* ResponseDataTableViewCell.swift in Sources */,
+				46A8592DDF2578582BB1967D54B22788 /* SettingsTableViewController.swift in Sources */,
+				D47FAC57AD9A145374D8830086859112 /* StoreManager.swift in Sources */,
+				74CDAC9137C2127AE8DF875637CF4774 /* UITableViewCellExtensions.swift in Sources */,
+				3B125AE718E203AA7621B50951A2C84A /* UITableViewExtensions.swift in Sources */,
+				69A2A0A869C24CB6836F501BF89E7E1A /* UserDefaultsExtensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB78FB146EAEE911ECA5422BD070FA0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF18F4BED64E768015504702988FF065 /* Dotzu-objc-dummy.m in Sources */,
+				66FF93810C135EF0F4D5DC70A7B86313 /* LoggerObjc.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C754E0CE38DBA3EFB62E5E040B2F7459 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E082583537D62C6185631A700DF4CEA8 /* Pods-DotzuObjc-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5A2673E5274957E3C44DD850FB81A6C4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Dotzu;
+			target = 9A56E63783389972D11595D39D453C0B /* Dotzu */;
+			targetProxy = 73A1B65724EA36CBA5F00123DF834EE2 /* PBXContainerItemProxy */;
+		};
+		68374F670A8B4C475FA5981C5070A5C6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AFNetworking;
+			target = CF671F7E57B92905F1CC91D036D6B4A7 /* AFNetworking */;
+			targetProxy = FDFE635B799457D4FC0A21EC4943CC93 /* PBXContainerItemProxy */;
+		};
+		90DF7991C67F365A9964566900EF94C0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Dotzu-objc";
+			target = 7567172C631A306D3921B8434154D29D /* Dotzu-objc */;
+			targetProxy = 59AA43B3411569BA54334F574C5E8927 /* PBXContainerItemProxy */;
+		};
+		9630B03920134089A609EC7CADDD1498 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Dotzu;
+			target = 9A56E63783389972D11595D39D453C0B /* Dotzu */;
+			targetProxy = F5589ADF447F5EC088CDCE1EC9A8F444 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		570877A1EEEF39C1B130CCEEB53C7B51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 726CDFD42C5580A28B832ECA7414B497 /* AFNetworking.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/AFNetworking/AFNetworking-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AFNetworking/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AFNetworking/AFNetworking.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = AFNetworking;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		59B042A655B7C20CBAB90E385BF4E4C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_VERSION = 3.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		8E50FE84BC9ADB8B8C9F23CC8C44484A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 704561969A72C49661D934C9895B6C3A /* Dotzu-objc.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Dotzu-objc/Dotzu-objc-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Dotzu-objc/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Dotzu-objc/Dotzu-objc.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Dotzu_objc;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A53D946E43C62D29357EB2EF49BDD1FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18F55467023D4C088ADCE30BD1C733B2 /* Dotzu.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Dotzu/Dotzu-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Dotzu/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Dotzu/Dotzu.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Dotzu;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B7324857C38B065FEB1EEE3105C2367A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_VERSION = 3.0;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DEB6D826C487B38CC299CD38C2C9DB78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 704561969A72C49661D934C9895B6C3A /* Dotzu-objc.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Dotzu-objc/Dotzu-objc-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Dotzu-objc/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Dotzu-objc/Dotzu-objc.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Dotzu_objc;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E11D5E234AD9A4C819B33BF59C148163 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E05246EFB96C5B2311AAECB84F5AB30D /* Pods-DotzuObjc.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-DotzuObjc/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DotzuObjc/Pods-DotzuObjc.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_DotzuObjc;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E800AB8AC3A08F300ED25C3FBAAC8443 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18F55467023D4C088ADCE30BD1C733B2 /* Dotzu.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Dotzu/Dotzu-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Dotzu/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Dotzu/Dotzu.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Dotzu;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EC3EE9EBDDF7444FC52168CE82FF000C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 726CDFD42C5580A28B832ECA7414B497 /* AFNetworking.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/AFNetworking/AFNetworking-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AFNetworking/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AFNetworking/AFNetworking.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = AFNetworking;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FECC6D3D305F68E0EF22F9353D8715E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A5CCCEC10B5DB9572D5E51198A9A675 /* Pods-DotzuObjc.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-DotzuObjc/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DotzuObjc/Pods-DotzuObjc.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_DotzuObjc;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59B042A655B7C20CBAB90E385BF4E4C7 /* Debug */,
+				B7324857C38B065FEB1EEE3105C2367A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		31E01BC98C827BD8A78F94173CDCC418 /* Build configuration list for PBXNativeTarget "AFNetworking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC3EE9EBDDF7444FC52168CE82FF000C /* Debug */,
+				570877A1EEEF39C1B130CCEEB53C7B51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40E7614FC0E8426165ED64F18F594D02 /* Build configuration list for PBXNativeTarget "Pods-DotzuObjc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FECC6D3D305F68E0EF22F9353D8715E0 /* Debug */,
+				E11D5E234AD9A4C819B33BF59C148163 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4650B908D376661D2C5F5A0E09DF91F8 /* Build configuration list for PBXNativeTarget "Dotzu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E800AB8AC3A08F300ED25C3FBAAC8443 /* Debug */,
+				A53D946E43C62D29357EB2EF49BDD1FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2F88A4F5D503E29D39E0B2A1A83DD30 /* Build configuration list for PBXNativeTarget "Dotzu-objc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEB6D826C487B38CC299CD38C2C9DB78 /* Debug */,
+				8E50FE84BC9ADB8B8C9F23CC8C44484A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
